@@ -1,0 +1,142 @@
+  body{
+        background-color: #f4f4f4;
+        margin: 0%;
+        padding: 0%; 
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }  
+      .home{
+        background-image: linear-gradient( rgba(15,7,5,0),rgba(12,12,12)),url("pexels-pixabay-267885.jpg");
+        height: 600px;
+      }
+      .home nav{
+        text-align: right;
+        margin-top: -150px;
+        margin-right: 20px;
+      }
+      .home a{
+        padding: 10px;
+        font-size: x-large;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.4s ease;
+
+      }
+      .home a:hover{
+        color: aqua;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+      .home span{
+        color: green;
+        font-size: xx-large;
+      }
+    
+     .home h3,h1,h2{
+      margin: 0%;
+       text-align:left;
+        font-size:x-large;
+        color: white;
+        margin-left: 40px;
+      
+     }   
+      .logo img{
+        margin-top:-10px;
+        height: 200px;
+        width: 200px;
+        margin-left: 30px;
+      }
+      .person img{
+        height: auto;
+        width: 300px;
+        margin-left: 1050px;
+        margin-top: -380px;
+      }
+      button{
+        background-color: rgb(14, 148, 14);
+        border-radius: 10px;
+        margin-left: 40px;
+        padding: 5px;
+        margin-top: 10px;
+        width: 100px;
+      }
+      .container{
+        display: flex;
+      }
+      .box1{
+       background-color:white;
+        border: 5px solid white;
+        box-shadow:  0 4px 20px rgba(0, 0, 0, 0.1); 
+        width: 500px;
+        color: black;
+        margin-left: 70px;
+        text-align: left;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: -30px;
+      }
+      .box2{
+       background-color: white;
+        border: 5px solid white;
+        box-shadow:  0 4px 20px rgba(0, 0, 0, 0.1); 
+        width: 500px;
+        color: black;
+        margin-left: 150px;
+        text-align: left;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: -30px;
+      }
+      .box{
+        width: 200px;
+        padding: 10px;
+        margin-top: 60px;
+        margin-left: 600px;
+        background-color:  #28a745;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        border-radius: 5px;
+      }
+      .box:hover{
+        background-color: green;
+        transition: 0.5s ;
+      }
+      .secondcontainer{
+        display: flex;
+        background-color:white;
+        margin-top: 10px;
+      }
+      .boximg1{
+        padding: 10px;
+        width: 350px;
+        margin-left: 60px;
+        margin-top: 100px;
+        background-color: white;
+        height: 100%;
+      }
+      .boxb2 button{
+        width: 200px;
+        padding: 10px;
+        margin-top: 40px;
+        margin-left: 600px;
+        background-color:  #28a745;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        border-radius: 5px; 
+      }
+      .boxb2{
+        background-color: white;
+      }
+      .boxb2 button:hover{
+        transition: 0.5s;
+        background-color: green;
+      }
+      .footer{
+        display: flex;
+      }
+    
+     .media p{
+      margin-left: 50px;
+      margin-top: 30px;
+      font-weight: bolder;
+      color: black;
+      font-size: x-large;
+     }
